@@ -1,0 +1,64 @@
+use techguru
+
+db.stories.drop()
+
+db.createCollection('stories')
+
+db.stories.insertMany(
+    [
+    {
+        id:1,
+        itemname: 'HP Victus',
+        itemcategory:'Laptop & Desktops',
+        details:'The Victus 16.1 inch Gaming Laptop PC has what you need to play. It has up to an 11th Generation Intel® Core™ i7 processor,6 powerful NVIDIA® GeForce RTX™ graphics and upgraded cooling system.', 
+        status: 'Available',
+        image: 'https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08186082.png'
+    },
+    
+    {
+        id:2,
+        itemname: 'Asus TUF FX504',
+        itemcategory:'Laptop & Desktops',
+        details:'ASUS TUF Thin & Light Gaming Laptop PC (FX504) 15.6” Full HD, 8th-Gen Intel Core i5-8300H (up to 3.9GHz), GeForce GTX 1050 2GB, 8GB DDR4 2666 MHz, 1TB FireCuda SSHD, Windows 10 ', 
+        status: 'Sold',
+        image: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6501/6501561_sd.jpg;maxHeight=640;maxWidth=550'
+    },
+
+{
+    id:3,
+    itemname: 'Dell 24inch monitor',
+    itemcategory:'Laptop & Desktops',
+    details:'The new Dell 24" Curved Gaming Monitor is equipped with a 4ms Response Time - 165Hz - AMD FreeSync™ Premium Technology featuring Vertical Alignment, Anti-glare with 3H hardness, and 1500R Curvature.', 
+    status: 'Available',
+    image: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6453/6453111_sd.jpg;maxHeight=640;maxWidth=550'
+},
+
+{
+    id:4,
+    itemname: 'Fit Bit Smart watch',
+    itemcategory:'Smart Devices & Cameras',
+    details:'Meet Fitbit Versa 2--a smartwatch that elevates every moment. Use your voice to create alarms, set bedtime reminders or check the weather with amazon Alexa built-in. ', 
+    status: 'Available',
+    image: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6364/6364308_sd.jpg;maxHeight=640;maxWidth=550'
+},
+
+{
+    id:5,
+    itemname: 'Nikon Camera',
+    itemcategory:'Smart Devices & Cameras',
+    details:'Designed as a true all-arounder, the Nikon D7500 is a DX-format DSLR offering a versatile feature-set to appeal to photographers and videographers alike. Based on a 20.9MP CMOS sensor and EXPEED 5 image processor', 
+    status: 'Available',
+    image: 'https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/nikon_d7500_dslr_camera_with_1492597269_1333200.jpg'
+},
+
+{
+    id:6,
+    itemname: 'Alexa Speaker',
+    itemcategory:'Smart Devices & Cameras',
+    details:'Echo Dot is a voice-controlled Smart Speaker with Alexa, perfect for any room. Just ask for music, news, information, and more. You can also call almost anyone and control compatible smart home devices with your voice.', 
+    status: 'Available',
+    image: 'https://m.media-amazon.com/images/I/6182S7MYC2L._AC_SY450_.jpg'
+}
+
+]
+)
