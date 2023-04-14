@@ -1,0 +1,345 @@
+.dabba {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .paragraphcontainer {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+  .name{
+      margin-left: 600px;
+      margin-bottom: -57px;
+      color: #f2f8f8;
+      top: -2px;
+      position: absolute;
+      
+  }
+  
+  body{
+      padding:0;
+      margin:0;
+      overflow-x:hidden;
+  }
+  
+  header{
+      padding:20px;
+      background-color:#2874f0;
+      }
+  
+  
+  #up{
+      float: right;
+      position: relative;
+      z-index: 10;
+          x-index: 10;
+          y-index: 10;
+  }
+  
+  
+  
+  header li a{
+      text-decoration:none;
+      padding:12px;
+      color:rgb(249, 244, 244);
+  
+  }
+  
+  header li a:hover{
+      color:rgb(205, 232, 50);
+  }
+  
+  .but
+  {
+    background-color: #f28039; 
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+   
+    .Tposition{
+      text-decoration:none;
+      margin-left: 20px;
+      background-color: #f28039; 
+        border: none;
+      color: white;
+      padding: 8px 8px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 6px 6px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 5px;
+  }
+  
+    header li{
+      display:inline;
+      padding-left:10px;
+      top: 18px;
+      padding-right: 10px
+  
+  }
+  
+  .logoimage{
+      width:183px;
+      float:left;
+      margin-top:-59px;
+      height:78px;
+      padding-right:1239px;
+  }
+
+  .container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  
+  
+  footer{
+      position: fixed;
+      left: 0px;
+      width: 100%;
+      height:10%;
+      background-color: rgb(71, 107, 249);
+      color: white;
+      right: 10px;
+      bottom: 0px;
+  }
+  
+  footer li{
+      display:inline;
+      color:rgb(248, 245, 248);
+  }
+  
+  footer li a:hover{
+      color:rgb(204, 236, 100);
+  }
+  
+  
+  footer li a{
+      text-decoration:none;
+      padding:12px;
+      color:rgb(248, 245, 248);
+  }
+  
+  .logo{
+      width: 100px;
+      height: 77px;
+      
+  }
+  
+  .dash{
+      width:100%;
+      box-align:center;
+      color:white;
+  
+  }
+  
+  .Tclass{
+      margin-bottom:-20px;
+      position: relative;
+      top: -11px;
+      padding-left: 45px;
+      
+  }
+  
+  
+  .Tclass a:hover{
+      color:rgb(194, 234, 52);
+  }
+  
+  
+  .text{
+      text-align:center;
+      margin-top:210px;
+      color:rgba(15, 1, 1, 0.733);
+  }
+
+  .heading{
+	text-align:center;
+	
+}
+
+.tablepos{
+
+	margin-top: 32px;
+    margin-left: 448px;
+}
+
+.inputform{
+    height: 300px;
+    width: 443px;
+	margin-left: 100px;
+  	margin-right: 200px;
+}
+
+.box{
+	height: 18px;
+    width: 275px;
+}
+
+.size{
+	height: 62px;
+	width: 275px;
+}
+
+
+
+.createtrade{
+	margin-left: 875px;
+    margin-top: 0%;
+	background-color:rgb(238, 144, 36);
+	border-color:white;
+	color: white;
+	border-radius: 5px;
+	
+}
+
+.buttontrade{
+    margin-left: 875px;
+    margin-top: 0%;
+	background-color:rgb(238, 144, 36);
+	border-color:white;
+	color: white;
+	border-radius: 5px;
+
+}
+
+.matter{
+	margin-top: 10px;
+  margin-left: 258px;
+}
+
+.details{
+	margin-top: -24px;
+    margin-left: 265px;
+}
+
+.discinfo{
+   top: 00px;
+   padding: 10px;
+}
+
+
+.firstcategory{
+	margin-top: 0px;
+    margin-left: 180px;
+}
+.secondcategory{
+	margin-top: 0px;
+    margin-left: 180px;
+}
+.firstcategory a{
+	text-decoration:none;
+}
+
+
+
+.secondcategory a{
+	text-decoration:none;
+}
+
+.names1{
+	margin-top: 120px;
+	margin-left: 140px;
+}
+
+.names2{
+	margin-top: 0px;
+	margin-left: 140px;
+}
+
+
+.bolddefining{
+	font-weight:bold;
+}
+
+.Aboutdetails{
+	text-align: center;
+	margin-top: 200px;
+	color: rgb(6, 6, 6);
+}
+  
+  .down{
+      display: flex;
+  }
+  
+  .down1{
+      flex: 180%;
+      margin-top:32px
+  }
+  
+  .down2{
+      flex:30%;
+  }
+
+
+  .contentalignment{
+	text-align: center;
+}
+  
+  
+  
+.ProductImage{
+    height: 250px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  
+
+
+.Editbuttonalignment{
+    float: right;
+    margin-right: 15px;
+    padding: 5px;
+    background-color:rgb(238, 144, 36);
+	border-color:white;
+	color: white;
+	border-radius: 5px;
+}
+
+.Editbuttonalignment1{
+    float: right;
+    margin-right: 12px;
+    padding:5px;
+    background-color:rgb(238, 144, 36);
+	border-color:white;
+	color: white;
+	border-radius: 5px;
+
+}
+
+
+.bol{
+    font-weight: bold;
+}
+
+
+.content{
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.textpos{
+    text-align: center;
+    font-size: 25px;
+}
+
+
