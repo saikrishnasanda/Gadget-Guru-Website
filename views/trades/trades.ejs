@@ -1,0 +1,24 @@
+<%-include('../partials/header.ejs')%>
+    <div class = "container" >
+                <div class ="contentalignment" >
+                    <%if(trades.length){%>
+                        <h2 id = "select">Select an item</h2>
+                        <%let ProductSet = new Set();%> 
+                        <%for(var i = 0; i<trades.length;i++){%>
+                         <%ProductSet.add(trades[i].itemcategory);%>
+                        <%}%>
+                        <%let productlist = Array.from(ProductSet);%>
+                       <%for(var i = 0;i<productlist.length;i++){%>
+                           <h4><%= productlist[i]%></h4>
+                         <%for(var j=0;j<trades.length;j++){%>
+                           <%if(trades[j].itemcategory === productlist[i]){%>
+                            <a class="productalignment" href="/trades/<%= trades[j]._id%>"><p><%= trades[j].itemname%></p></a>
+                           <%}%>
+                         <%}%>
+                       <%}%>
+                           <%}else{%>
+                           <p>There are no products to display</p>
+                           <%}%>            
+        </div>
+     </div>
+<%-include('../partials/footer.ejs')%>

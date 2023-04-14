@@ -1,0 +1,19 @@
+<%- include('../partials/header.ejs')%>
+
+
+<div class = "content">
+    <div class="elementalignment">
+        <form>
+            <button  class="Editbuttonalignment" type ="submit" formmethod = "GET" formaction = "/trades/<%= product._id%>/edit">Edit</button>
+            <button class="Editbuttonalignment1" formmethod="POST" formaction="/trades/<%= product._id%>?_method=DELETE" type="submit">Delete</button>
+        </form>
+
+       <p><b>Product Title :</b> <%= product.itemname%><p>
+        <p><b>Product Category :</b> <%= product.itemcategory%></p>
+        <p><b>Product Description : </b><%= product.details%></p>
+        <p><b>Status : </b><%= product.status%></p>
+        <img class="ProductImage" alt="<%= product.itemname%>" src="<%= product.image%>">
+    </div>
+    
+</div>
+<%- include('../partials/footer.ejs')%>

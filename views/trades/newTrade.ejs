@@ -1,0 +1,36 @@
+<%-include('../partials/header.ejs')%>
+<div class="container">
+<form action = '/trades' method = 'POST'>
+<h2 class="heading">Start Trading</h2>
+
+<div class="tablepos">
+  <table class="inputform">
+       <tr>
+       <td>Category</td>
+       <td><input type="text" id="itemcategory" name="itemcategory" placeholder="Enter Category" class="box"></td>
+       </tr>
+       <tr>
+       <td>Title</td>
+       <td><input type="text" id="itemname" name="itemname" placeholder="Enter Title" class="box"></td>
+       </tr>
+       <tr>
+       <td>Status</td>
+       <td><input type="text" id="status" name="status" placeholder="Enter Status" class="box"></td>
+       </tr>
+       <tr>
+       <td>Image URL</td>
+       <td><input type="text" id="image" name="image" placeholder="Enter Image URL" class="box"></td>
+       </tr>
+       <tr>
+       <td>Details</td>
+       <td><textarea id="details" name="details" placeholder="Description" class="size"></textarea></td>
+       </tr>
+
+       </table>
+        </div>
+
+        <button class="createtrade" type="submit"> Add Product</button>
+</form>
+	</div>
+
+    <%-include('../partials/footer.ejs')%>

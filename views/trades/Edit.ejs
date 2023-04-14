@@ -1,0 +1,39 @@
+<%-include('../partials/header.ejs')%>
+	 <div class="container">
+  <form class= "tradeform" method="post" action="/trades/<%=product._id%>?_method=PUT">
+	 <h2 class="heading">Edit Trade Details</h2>
+   
+   <div class="tablepos">
+    <table class="inputform">
+     
+       <tr>
+       <td>Category</td>
+       <td><input type="text" id="itemcategory" name="itemcategory" value="<%= product.itemcategory%>" class="box"></td>
+       </tr>
+       <tr>
+       <td>Title</td>
+       <td><input type="text" id="itemname" name="itemname" value="<%= product.itemname%>"  class="box"></td>
+       </tr>
+       <tr>
+       <td>Status</td>
+       <td><input type="text" id="status" name="status" value="<%= product.status%>"  class="box"></td>
+       </tr>
+       <tr>
+       <td>Image URL</td>
+       <td><input type="text" id="image" name="image" value="<%= product.image%>"  class="box"></td>
+       </tr>
+       <tr>
+       <td>Details</td>
+       <td><textarea id="details" name="details" class="size"> <%= product.details%> </textarea></td>
+       </tr>
+
+       </table>
+        </div>
+
+        <button class="buttontrade" type ="Submit">Update</button>
+
+      </form>
+
+	</div>
+
+    <%-include('../partials/footer.ejs')%>
